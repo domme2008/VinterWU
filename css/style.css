@@ -1,12 +1,11 @@
 * {
     margin: 0;
-    padding: 3px;
 }
 
 body {
     height: 100vh;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 5fr 1fr;
     grid-template-rows: 1fr 1fr 4fr 0.75fr;
     grid-template-areas: 
     'hd hd'
@@ -38,14 +37,19 @@ nav {
 main {
     grid-area: mn;
     background-color: #2ecc71;
-    overflow-y: hidden scroll;
+    overflow: hidden scroll;
     box-shadow: 20px 20px 20px 20px gray;
+    color: white;
 }
 
 aside {
+    display: flex;
     grid-area: as;
     background-color: #2ecc71;
     box-shadow: 20px 20px 20px 20px gray;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -63,4 +67,14 @@ a {
 a:hover {
     text-decoration: underline;
     color: gray;
+}
+
+h1,h2,h3,p,ul {
+    justify-self: center;
+    margin: 20px;
+
+}
+
+li {
+    margin: 40px 0 40px 0;
 }
