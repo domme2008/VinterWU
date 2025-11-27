@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
-    box-shadow: 20px 20px 20px 20px gray;
+    box-shadow: 0px 20px 20px 0px gray;
 }
 
 nav {
@@ -31,31 +31,38 @@ nav {
     background-color: #2ecc71;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 24px 24px 24px 24px gray;
+    box-shadow: 0px 20px 20px 0px gray;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     grid-area: mn;
     background-color: #2ecc71;
-    overflow: hidden scroll;
     box-shadow: 20px 20px 20px 20px gray;
     color: white;
+    overflow: auto;
+    align-items: center;
 }
 
 aside {
     display: flex;
+    flex-direction: column;
     grid-area: as;
     background-color: #2ecc71;
-    box-shadow: 20px 20px 20px 20px gray;
+    box-shadow: 0px 20px 20px 0px gray;
     color: white;
-    flex-direction: column;
     justify-content: space-evenly;
 }
 
 footer {
+    display: flex;
     grid-area: ft;
     background-color: #2ecc71;
-    box-shadow: 20px 20px 20px 20px gray;
+    box-shadow: 0px 20px 20px 0px gray;
+    align-items: center;
+    color: white;
+    justify-content: center;
 }
 
 a {
@@ -69,12 +76,40 @@ a:hover {
     color: gray;
 }
 
-h1,h2,h3,p,ul {
-    justify-self: center;
+p,ul {
     margin: 20px;
-
 }
 
-li {
-    margin: 40px 0 40px 0;
+#start-rubrik {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.rel-links {
+    margin: 60px 0 60px 0;
+}
+
+main::-webkit-scrollbar {
+  width: 4px;
+}
+
+main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: #57a679;
+  border-radius: 4px;
+}
+
+#namn-hemsida:hover {
+    text-decoration: none;
+    color: white;
 }
