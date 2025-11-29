@@ -97,7 +97,7 @@ h3 {
 }
 
 main::-webkit-scrollbar {
-  width: 4px;
+  width: 8px;
 }
 
 main::-webkit-scrollbar-track {
