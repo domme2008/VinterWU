@@ -42,9 +42,8 @@ main {
     box-shadow: 20px 20px 20px 20px gray;
     color: white;
     overflow: auto;
-    align-items: center
     justify-content: start;
-    padding: 20px;
+    padding: 40px;
 }
 
 aside {
@@ -92,8 +91,16 @@ h2,h3 {
     margin: 20px 0 10px 0;
 }
 
-ul, {
+ul {
     margin: 20px;
+}
+
+p {
+    margin-right: 380px;
+}
+
+.center {
+    justify-self: center;
 }
 
 #slut-text{
@@ -120,4 +127,13 @@ main::-webkit-scrollbar-thumb {
 #namn-hemsida:hover {
     text-decoration: none;
     color: white;
+}
+
+#body-e {
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    'hd'
+    'nv'
+    'mn'
+    'ft';
 }
