@@ -6,7 +6,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    grid-template-rows: 1fr 1fr 4fr 0.75fr;
+    grid-template-rows: 1fr 1.25fr 3.5fr 1.25fr;
     grid-template-areas: 
     'hd hd'
     'nv nv'
@@ -22,7 +22,6 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
-    box-shadow: 0px 20px 20px 0px gray;
 }
 
 nav {
@@ -31,37 +30,34 @@ nav {
     background-color: #2ecc71;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 20px 20px 0px gray;
 }
 
 main {
     display: flex;
     flex-direction: column;
     grid-area: mn;
-    background-color: #2ecc71;
-    box-shadow: 20px 20px 20px 20px gray;
-    color: white;
+    background-color: white;
+    color: black;
     overflow: auto;
     justify-content: start;
-    padding: 40px;
+    padding: 30px;
 }
 
 aside {
     display: flex;
     flex-direction: column;
     grid-area: as;
-    background-color: #2ecc71;
-    box-shadow: 0px 20px 20px 0px gray;
+    background-color: gray;
     color: white;
     justify-content: space-evenly;
     padding: 0 10px 0 10px;
+    border-radius: 20px 0 0 20px;
 }
 
 footer {
     display: flex;
     grid-area: ft;
     background-color: #2ecc71;
-    box-shadow: 0px 20px 20px 0px gray;
     align-items: center;
     color: white;
     justify-content: center;
@@ -76,7 +72,6 @@ a,#namn-hemsida {
 
 a:hover {
     text-decoration: underline;
-    color: gray;
 }
 
 #first-h2 {
@@ -131,6 +126,7 @@ main::-webkit-scrollbar-thumb {
 
 #body-e {
     grid-template-columns: 100vw;
+    grid-template-rows: 0.6fr 0.5fr 4.5fr 0.5fr;
     grid-template-areas: 
     'hd'
     'nv'
