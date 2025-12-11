@@ -125,6 +125,8 @@ main::-webkit-scrollbar-thumb {
 }
 
 #body-e {
+    height: 100vh;
+    width: 100vw;
     grid-template-columns: 100vw;
     grid-template-rows: 0.6fr 0.5fr 4.5fr 0.5fr;
     grid-template-areas: 
@@ -132,4 +134,39 @@ main::-webkit-scrollbar-thumb {
     'nv'
     'mn'
     'ft';
+}
+
+.cards {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 24px;
+    margin: 20px;
+    flex-direction: row;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+
+#main-e {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    grid-area: mn;
+    background-color: white;
+    color: black;
+    overflow-y: auto;
+    justify-content: space-around;
+}
+
+img {
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
 }
