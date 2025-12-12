@@ -153,13 +153,14 @@ main::-webkit-scrollbar-thumb {
 .cards-a {
     display: flex;
     width: 500px;
-    height: 300px;
+    height: 350px;
     background-color: gray;
     border-radius: 24px;
     margin: 20px;
-    padding: 30px;
+    padding: 10px 30px 20px 30px;
     flex-direction: column;
     align-items: center;
+    row-gap: 20px;
 }
 
 figure {
@@ -188,4 +189,27 @@ figcaption {
     margin: 20px;
     font-size: 21px;
     font-weight: 900;
+}
+
+.button {
+    display: flex;
+    min-width: 460px;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 0px 10px 20px 0px black;
+    padding-top: 16px;
+    align-content: center;
+    position:sticky;
+    left: auto;
+    top: 70%;
+}
+
+.cards-a p {
+    margin-bottom: 10px;
+}
+
+.cards-a h1 {
+    margin-bottom: -10px;
 }
