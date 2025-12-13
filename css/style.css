@@ -28,7 +28,7 @@ header {
 nav {
     display: flex;
     grid-area: nv;
-    background-color: #2ecc71;
+    background-color: gray;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -108,7 +108,7 @@ ul {
     margin: 60px 0 60px 0;
 }
 
-aside a, li{
+aside a, nav a, li{
     color: black;
 }
 
@@ -121,7 +121,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-    background-color: #57a679;
+    background-color: rgb(128, 128, 128, 0.5);
     border-radius: 4px;
 }
 
