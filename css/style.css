@@ -42,7 +42,7 @@ main {
     color: black;
     overflow: hidden scroll;
     align-content: start;
-    padding: 10px 20px 10px 20px;
+    padding: 0 20px 0 20px;
 }
 
 aside {
@@ -210,6 +210,10 @@ figcaption {
 #aside-c {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     padding: 20px;
+    justify-content: start;
+}
+
+#aside-c h2 {
+    margin-bottom: -5px;
 }
