@@ -119,7 +119,7 @@ figure {
 
 figcaption {
     margin: 20px;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 900;
     color: white;
 }
@@ -158,7 +158,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 #namn-hemsida {
-    font-size: 3rem;
+    font-size: 48px;
 }
 
 #namn-hemsida:hover {
@@ -187,7 +187,7 @@ a {
     margin: 0;
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: bolder;
 }
 
